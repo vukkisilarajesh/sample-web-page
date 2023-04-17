@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajesh</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <nav id="navBar" class="navBar">
+        <div onclick="openMenu()" class="menuicon"><i class="bi-list"></i></div>
+        <div class="navlist">
+            <a href="#aboutme">About Me</a>
+            <a href="#Education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#contactus">contactus</a>
+
+        </div>
+        <img class= "navprofile" src="./IMG_20190513_162438_209.jpg" alt="navprofile"
+    </nav>
+    <main>
+        <div class="profilebody">
+            <div class="profileinfo">
+                <p class="text1"> Hello !</p>
+                <p class="text2"> This is V sasidhar</p>
+                <p class="3text"> Data Scientist</p>
+
+
+            </div>
+            <div>
+                <img class="profileimg" src="./IMG_20190513_162438_209.jpg"
+
+            </div>
+
+        </div>
+    </main>   
+</body>
+<script>
+    function openMenu(){
+        document.getElementById('navBar')?.classList.toggle('active')
+    }
+</script>
+</html>
